@@ -11,6 +11,8 @@
         }
     };
 
+    textDisplay.display("Hello World 😀");
+
     window.addEventListener('keydown', ev => {
         textDisplay.clear();
         textDisplay.display(ev.key);
